@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.blue {
+	background: -webkit-radial-gradient(center, 
+		rgb(0, 127, 255) 0%, 
+		rgb(0, 127, 254) 14.29%, 
+		rgb(0, 124, 248) 28.57%, 
+		rgb(0, 120, 240) 42.86%, 
+		rgb(0, 113, 227) 57.14%, 
+		rgb(0, 105, 211) 71.43%, 
+		rgb(0, 96, 192) 85.71%, 
+		rgb(0, 84, 168) 100%) fixed;
+	background: -moz-radial-gradient(center, 
+		rgb(0, 127, 255) 0%, 
+		rgb(0, 127, 254) 14.29%, 
+		rgb(0, 124, 248) 28.57%, 
+		rgb(0, 120, 240) 42.86%, 
+		rgb(0, 113, 227) 57.14%, 
+		rgb(0, 105, 211) 71.43%, 
+		rgb(0, 96, 192) 85.71%, 
+		rgb(0, 84, 168) 100%) fixed;
+	background: -o-radial-gradient(center, 
+		rgb(0, 127, 255) 0%, 
+		rgb(0, 127, 254) 14.29%, 
+		rgb(0, 124, 248) 28.57%, 
+		rgb(0, 120, 240) 42.86%, 
+		rgb(0, 113, 227) 57.14%, 
+		rgb(0, 105, 211) 71.43%, 
+		rgb(0, 96, 192) 85.71%, 
+		rgb(0, 84, 168) 100%) fixed;
+	background: radial-gradient(center, 
+		rgb(0, 127, 255) 0%, 
+		rgb(0, 127, 254) 14.29%, 
+		rgb(0, 124, 248) 28.57%, 
+		rgb(0, 120, 240) 42.86%, 
+		rgb(0, 113, 227) 57.14%, 
+		rgb(0, 105, 211) 71.43%, 
+		rgb(0, 96, 192) 85.71%, 
+		rgb(0, 84, 168) 100%) fixed;
+	
+	background-color: hsl(210, 100%, 44%);
+	color: white;
+
+	/*background: white;
+	color: black;*/
+}
+
+body {
+	margin: 0;
+	line-height: 1.3em;
+	font-size: 1.1em;
+	font-family: pt-sans;
+	vertical-align: baseline;
+	background: transparent;
+	/*font-weight: 100 !important;*/
+	/*font-size: 1em;*/
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#touch-steps {
+	background-image: url(images/touch-steps.png);
+	position: absolute;
+	width: 151px;
+	height: 407px;
+	right: 0;
+	top: 1px;
+	pointer-events: none;
+}
+
+h1 {
+	line-height: 1.3em;
+	font-size: 3.5em;
+	margin: 1em 0 1em 0;
+	font-family: amatic-sc, Noteworthy, Arial, sans-serif;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.funcdoodle {
+	font-family: Georgia;
+	color: #FFFFFF;
+	font-size: 1em;
+}
+.funcdoodle em {
+	color: orange;
+}
+
+video, iframe {
+	border-width: 49px 20px 49px 20px;
+	border-style: solid;
+	border-color: rgba(255,255,255,0.12);
+	border-radius: 14px;
+}
+
+video:focus, iframe:focus {
+	outline: none;
+}
+
+article {
+	text-align: left;
+	max-width: 35em;	
+	min-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	border-radius: 2em;
+}
+
+#app-store-badge {
+	text-align: center;
+}
+
+#pinterest-container {
+	text-align: center;
+}
+
+li {
+	margin-top: 0.5em;
+	list-style-type: circle;
+}
+
+a {
+	font-family: Georgia;
+	/* [disabled]font-style: italic; */
+	color: orange;
+}
+
+small {
+	opacity: 0.8;
+}
+small::before {
+	content: "* ";
+}
+
+div.email {
+	width: 100%;
+	text-align: center;
+	padding: 1em 0 3em 0;
+	font-size: 1.5em;
+}
+div.email a {
+	font-family: monospace;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer {
+	font-size: 0.8em;
+	padding: 1em;
+	background: white;
+	color: black;
+}
+footer a, footer .funcdoodle, footer .funcdoodle em {
+	color: black;
+}
