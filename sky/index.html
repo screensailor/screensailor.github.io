@@ -41,7 +41,7 @@
         PubSub.publish("myskyapp", {
           tag: "sky.esim.activation.open.qr",
           context: {
-            timeSent: new Date(),
+            timeSent: Date.now(),
             sid: "16837238938612450816206"
           }
         });
